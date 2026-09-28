@@ -1,4 +1,4 @@
-// Filters and sorting controls for the transaction list
+// Controls for filtering and sorting
 export default function FilterBar({
   filterType,
   setFilterType,
