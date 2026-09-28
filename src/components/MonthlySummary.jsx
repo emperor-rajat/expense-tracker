@@ -1,4 +1,4 @@
-// Groups transactions by month and shows income/expense totals
+// Groups transactions by month
 export default function MonthlySummary({ transactions }) {
   // Group by "YYYY-MM" key
   const months = {};
