@@ -1,4 +1,4 @@
-
+//main app component that holds all state and renders child components
 import { useState } from "react";
 import useLocalStorage from "./hooks/useLocalStorage";
 import TransactionForm from "./components/TransactionForm";
