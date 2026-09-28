@@ -1,3 +1,4 @@
+//custom hook that syncs state with local storage
 import { useEffect, useState } from "react";
 
 export default function useLocalStorage(key, initialValue) {
