@@ -1,4 +1,4 @@
-// Simple bar chart showing expense totals by category
+// Simple bar chart showing spending by category
 export default function Chart({ transactions }) {
   // Only look at expenses
   const expenses = transactions.filter((t) => t.type === "expense");
