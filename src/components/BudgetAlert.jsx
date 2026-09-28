@@ -1,4 +1,4 @@
-// Lets the user set a budget and warns if expenses exceed it
+// Budget input and warning display
 import { useState } from "react";
 
 export default function BudgetAlert({ budget, setBudget, totalExpense }) {
