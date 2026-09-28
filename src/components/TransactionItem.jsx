@@ -1,4 +1,4 @@
-// A single transaction row
+// renders a single transaction row
 export default function TransactionItem({ transaction, onDelete }) {
   const sign = transaction.type === "income" ? "+" : "-";
 
