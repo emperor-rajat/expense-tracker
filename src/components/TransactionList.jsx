@@ -1,4 +1,4 @@
-// Renders the list of transactions with keys
+// Renders the list list of filtered transactions and shows an empty state if none match
 import TransactionItem from "./TransactionItem";
 
 export default function TransactionList({ transactions, onDelete }) {
