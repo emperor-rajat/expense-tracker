@@ -1,4 +1,4 @@
-// Form to add a new transaction (income or expense)
+// Form for adding new transactions
 import { useState } from "react";
 
 export default function TransactionForm({ onAdd }) {
